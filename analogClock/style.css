@@ -1,0 +1,67 @@
+#h2{
+    display:flex;
+    justify-content: left;
+    
+}
+b{
+    color:aqua;
+}
+#h3{
+    display:flex;
+    justify-content: center;
+    color:brown;
+    
+}
+#p{
+    display:flex;
+    justify-content: right;
+    color:green;
+   
+    
+}
+#clock {
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    /*to make the height and width responsive*/
+    width: 40vw;
+    background: url(clock.jpg) no-repeat;
+    /*setting our background image*/
+    background-size: 100%;
+}
+  
+#hour,
+#minute,
+#second {
+    position: absolute;
+    
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+  
+#hour {
+    width: 1.8%;
+    height: 25%;
+    background: red;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;
+}
+  
+#minute {
+    width: 1.6%;
+    height: 30%;
+    background: aqua;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;
+}
+  
+#second {
+    width: 1%;
+    height: 40%;
+    background: black;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8;
+}
